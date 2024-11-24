@@ -1,0 +1,192 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #1e3c72; /* Dark Blue */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #ffda79; /* Gold */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue gradient */
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.hero button {
+    background: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #388e3c; /* Darker Green */
+}
+
+/* Features Section */
+.features {
+    background: #f9f9f9;
+    padding: 2em;
+    text-align: center;
+}
+
+.features .columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .column {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+/* Pricing Section */
+.pricing {
+    background: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 1.5em;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #388e3c;
+}
+
+/* Sign-Up Section */
+.signup {
+    background: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.signup form {
+    display: inline-block;
+    width: 50%;
+}
+
+.signup form input, .signup form button {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup form button {
+    background: #1e88e5; /* Light Blue */
+    color: white;
+    cursor: pointer;
+}
+
+.signup form button:hover {
+    background: #1565c0; /* Darker Blue */
+}
+
+/* Contact Section */
+
+/* Contact Section */
+.contact {
+    background: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    width: 50%;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #1e88e5;
+    color: white;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #283e51;
+}
+/* Contact Section */
+/* #contact{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+} */
+#contact p {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+#contact a {
+    display: flex;
+    justify-content: center;
+    color: #4b79a1;
+}
+/* Footer */
+footer {
+    background: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
